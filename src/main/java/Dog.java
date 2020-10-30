@@ -9,8 +9,7 @@ public class Dog extends Pet {
     }
 
     public Dog(){
-        super(name) = "Bela";
-        super(age) = 10;
+        super("Bela", 10);
         this.breed = "Huskey";
     }
 
@@ -21,7 +20,7 @@ public class Dog extends Pet {
 
     // toString method
     public String toString() {
-        String str = "Name: " + super.getName() + ", Age: " + super.getAge() + ", Breed:" + this.breed;
+        String str = "Name: " + super.getName() + ", Age: " + super.getAge() + ", Breed: " + this.breed;
         return str;
     }
     // Getter
