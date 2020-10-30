@@ -9,7 +9,8 @@ public class Dog extends Pet {
     }
 
     public Dog(){
-        super(a, b);
+        super(name) = "Bela";
+        super(age) = 10;
         this.breed = "Huskey";
     }
 
